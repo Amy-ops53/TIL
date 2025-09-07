@@ -29,7 +29,7 @@ TM(Traffic Manager) 장비는 네트워크 트래픽을 **효율적으로 분산
 
 ---
 
-## 3. 아키텍처 예시
+## 3. 아키텍처 예시(Example)
 
 ```text
 [Client] → [TM 장비] → [WAS / Application Server] → [DB Server]
