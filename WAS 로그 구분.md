@@ -30,7 +30,6 @@
 - 요청 URL, HTTP Method, 응답 코드, 처리 시간, User-Agent, IP 등이 포함된다.  
 - 예시 파일
   - Tomcat: `localhost_access_log.YYYY-MM-DD.txt`  
-- 형식 예시
 
 ---
 
