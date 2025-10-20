@@ -10,6 +10,7 @@ UPDATE, DELETE, INSERT 같은 DML 문을 실행하면 COMMIT 하기 전까지 �
 DELETE FROM sample_table
 WHERE id BETWEEN 1 AND 5;
 ```
+
 이때 오라클은 1~5행 전체를 잠금(row lock) 한다.  
 즉, 다른 세션에서는 이 1~5행을 수정하거나 삭제할 수 없다. (조회는 가능함)  
 락은 COMMIT 또는 ROLLBACK을 해야 풀린다.
